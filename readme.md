@@ -9,7 +9,7 @@
 ### Using the endpoint
 The endpoint exists at the {Your heroku app domain}/sentiment and can be accessed via a GET request with the "data" query param, for example:
 
-https://mySentimentApp.herokuapp.com/sentiment?data=I%20love%20cake
+https://sentiment-analysis-maj-pro.herokuapp.com/sentiment?data=I%20love%20cake
 returns: {"sentiment":"positive", "value":0.6369}
 
 **Note: Because this is a request through the URL, length limits are enforced. So you will want to limit it to 500 characters or so**
