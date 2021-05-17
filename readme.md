@@ -23,7 +23,7 @@ The application uses the NLTK VADER `polarity_scores` function.
 import requests
 session = requests.Session()
 
-endpoint = "https://mySentimentApp.herokuapp.com/sentiment?data={sentence}"
+endpoint = "https://sentiment-analysis-maj-pro.herokuapp.com/sentiment?data={sentence}"
 
 sentences = ["This is good", "This is bad", "This is cake!"]
 
